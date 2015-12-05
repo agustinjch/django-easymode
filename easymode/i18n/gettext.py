@@ -15,7 +15,7 @@ from django.conf import settings
 from django.core.management.base import CommandError
 from django.core.exceptions import ImproperlyConfigured
 from django.utils.translation import templatize, to_locale, get_language
-from django.utils import tzinfo
+from django.utils.timezone import tzinfo
 from django.template.loader import render_to_string
 
 import easymode.tree.introspection
